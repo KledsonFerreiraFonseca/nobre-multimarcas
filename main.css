@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    background-color: bisque;
+    color: rgb(51, 150, 12);
+    font-size: 30px;
+}
+
+header nav li {
+    display: inline;/*posição dos menus*/
+    margin-left: 100px;/*aumenta o espaço entre o menu*/
+    font-size: 20px;
+}
+
+
+header nav li a {
+    color: rgb(51, 150, 12);/*cor do menu*/
+    text-decoration: none ;/*p/ remover os haderline dos links*/
+}
+
+.container {
+    max-width: 1280px;/*Largura máxima*/
+    width: 100%;/*Largura 100% do 1280px*/
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;/*colocar o título para a esquerda e o menu na direita*/
+    align-items: end;/*p/ colocar o o menu na parte inferior da margin*/
+    justify-content: space-between;
+}
+
+.objetivos li{
+    height: 24px;
+    display: inline;
+}

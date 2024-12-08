@@ -1,52 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head><!--inicio cabeça-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>loja Nobre Multimarcas</title>
-    <link rel="stylesheet" href="./main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./main.css"><!--associação do CSS ao HTML-->
+</head><!--fim cabeça-->
+<body><!--inicio do corpo-->
+<!--cabeçalho-->
     <header>
-        <div class="container">
-            <h1>Auto Nobre Veículos</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">Empresa</a>
-                    </li>
-                    <li>
-                        <a href="#">Ficha Cadastral</a>
-                    </li>
-                    <li>
-                        <a href="#">Estoque</a>
-                    </li>
-                    <li>
-                        <a href="#">Contato</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+            <div class="container">
+                <h1>Auto Nobre Veículos</h1>
+                <nav><!--criação do menu-->
+                    <ul>
+                        <li><a href="#">Empresa</a></li>
+                        <li><a href="#">Ficha Cadastral</a></li>
+                        <li><a href="#">Estoque</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
     </header>
-    <section><!--section para o corpo-->
-        <div class="container"><!--div para imagem-->
+<!--fim do cabeçalho-->
+
+<!--inicio do corpo-->
+    <section id="cloak"> <!--apresentação da loja-->
+        <div class="container">
             <img src="./imagens/image.png" alt="carro antigo rebaixado"/>
-            <div>
+            <div class="text">
                 <h2>Bem vindo a sua loja número um em semi-novos</h2>
                 <p>
                     A "AUTO NOBRE" foi estabelecida com uma missão clara: ser sua parceira confiável para facilitar a compra, venda ou troca do seu veículo. Nossa expertise abrange toda a linha de seminovos, apresentando opções de financiamento com taxas altamente vantajosas.
-                </p>                
+                </p>
             </div>
         </div>
-    </section>
+    </section>                
+    <section id="mvv">
         <div class="container">
-            <h3>Porque Nós Escolher</h3> 
-                <UL class="objetivos">
-                    <li>Misão</li>
-                    <li>Visão</li>
-                    <li>Valores</li>
-                </UL>
-        </div>
-    <section>
+            <h3><u>Porque Nós Escolher</u></h3>
+            <img src="./imagens/download.png"/>
+            <div class="articles">
+                <article>
+                    <p>
+                        <b>MISSÃO -</b> Nossa missão é um compromisso inabalável. Buscamos incessantemente aprimorar nossa abordagem, elevando continuamente a qualidade do nosso atendimento para garantir a satisfação completa de nossos estimados clientes.
+                    </p>
+                </article>    
+                <article>
+                    <p>
+                        <b>VISÃO -</b> Mantendo nossa visão à frente, priorizamos não apenas um atendimento, mas sim uma experiência excepcional. Isso é vital para nutrir relações duradouras com nossos clientes, estabelecendo uma fidelidade baseada em confiança mútua.
+                    </p>
+                </article>
+                <article>
+                    <p>
+                        <b>VALORES -</b> Guiados por princípios fundamentais, nossa conduta é definida por ética irrepreensível, um comprometimento incansável com a excelência e uma responsabilidade inabalável em relação aos nossos clientes. Estes valores formam a base sólida de nossa empresa e de cada interação que temos o privilégio de realizar.
+                    </p> 
+                </article>    
+            </div>
+        </div>    
+    </section>    
+<!--fim do corpo-->
+
+<!--inicio do rodapé-->
+    <section id="contact">
+        <div class="container">
+            <div>
+                <h6><u>INFORMAÇÕES DE CONTATO</u></h6>
+                <p>(48)3521-2398<a href="#" title="Siga-nos no whatsapp">
+                <img class="direto" src="./imagens/whatsapp-web-entrar.jpg" alt="logo do Whatsapp"/></a>
+                </p>                
+                <p>autonobreveiculos@gmail.com</p>
+            </div>
+            <div>
+                <h6><u>HORÁRIO DE FUNCIONAMENTO</u></h6>
+                <p>Segunda à Sexta: 08:00 às 19:00</p>
+                <p>Sábados: 09:00 às 16:00</p>
+                <p>Domingos: Fechado</p>
+            </div>
+            <div>
+                <h6><u>LOCALIZAÇÃO</u></h6>
+                <P>
+                <address> Rua: Ferreira Bastos n° 1234, <br>Bairros Campinas - São José - SC</address>
+                </P>
+            </div>
+            <div>
+                <h6><u>SIGA-NÓS</u></h6>
+                <ul>
+                    <li><a href="#" title="Siga-nos no Intagram">
+                            <img src="./imagens/instagram.png" alt="logo do Instagram"/>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siga-nos no Facebook">
+                            <img src="./imagens/facebook.png" alt="logo do Facebook"/>
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </div>    
+    </section>
 </body>
+<!--fim do rodapé-->
 </html>

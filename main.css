@@ -1,42 +1,137 @@
-*{
+*{/*criação reset todo o espaço*/
     margin: 0px;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-header {
-    padding: 20px;
-    background-color: bisque;
-    color: rgb(51, 150, 12);
-    font-size: 30px;
-}
-
+/*o menu*/
 header nav li {
-    display: inline;/*posição dos menus*/
-    margin-left: 100px;/*aumenta o espaço entre o menu*/
-    font-size: 20px;
+    display: inline;/*tipo de sua apresentação (menus lado a lado)*/
+    margin-left: 25px;/*margem entre os menus a esquerda*/
+    font-size: 15px;/*aumentar as fontes*/
 }
 
-
-header nav li a {
-    color: rgb(51, 150, 12);/*cor do menu*/
-    text-decoration: none ;/*p/ remover os haderline dos links*/
-}
-
-.container {
-    max-width: 1280px;/*Largura máxima*/
-    width: 100%;/*Largura 100% do 1280px*/
-    margin: 0 auto;
+header {
+    background-color: black;
+    padding: 50px;
+    color: gold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 header .container,
-section .container {
-    display: flex;/*colocar o título para a esquerda e o menu na direita*/
-    align-items: end;/*p/ colocar o o menu na parte inferior da margin*/
+#cloak .container,
+#contact .container{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.objetivos li{
+header li a {
+    color: gold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.container { /*configuração do limite da página*/
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#cloak img {
+    height: 300px;
+}
+
+h3 {
+    text-align: center;
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-size: 30px;
+    color: gold
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 150px;
+}
+
+.articles article {
+    width: 30%;
+    text-align:justify;
+}
+
+section {
+    padding: 0px 0;
+}
+
+.articles article p{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#cloak {
+    padding: 3px 0px 0px 0px;
+    background-color: rgb(43, 41, 41);
+    color: rgb(231, 214, 214)
+}
+
+#contact img {
     height: 24px;
+}
+
+#contact li img{
+    height: 40px;
+    margin-left: 5px;
+}
+
+#contact li {
     display: inline;
+}
+
+#cloak .container,
+#mvv .container,
+#contact .container {
+    align-items: flex-start;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+#cloak .text {
+    margin-left: 10px;
+    margin-top: 60px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+#contact {
+    margin: 0% 0px 0px 0px;
+    background-color: rgb(41, 39, 27);
+    color: rgb(231, 214, 214)
+}
+
+h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#mvv {
+    background-color: black;
+    color: rgb(231, 214, 214);
+    padding-bottom: 20px;
+    
+}
+
+#mvv img {
+    height: 150px;
+    margin-left: 550px;
+    
 }

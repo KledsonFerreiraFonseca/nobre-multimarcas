@@ -1,4 +1,5 @@
-*{/*criação reset todo o espaço*/
+/*criação reset todo o espaço*/
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
